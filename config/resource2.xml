@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmz>
+<resources>
+   <extension name="dmzQtExtAppShellResources"/>
+</resources>
+<dmzQtExtAppShellResources>
+   <forge url="http://localhost:5984"/>
+</dmzQtExtAppShellResources>
+<runtime>
+<resource-map>
+   <search>
+      <path value="../../assets/tank/models"/>
+      <path value="../../assets/tank/terrain"/>
+      <path value="../../assets/tank/images"/>
+      <path value="./assets/"/>
+   </search>
+   <search name="audio">
+      <path value="../../assets/tank/sounds"/>
+      <path value="./assets/"/>
+   </search>
+   <search name="font">
+      <path value="../../assets/tank/fonts"/>
+      <path value="./assets/"/>
+   </search>
+   <resource name="DVTE Vehicle">
+      <render>
+         <articulate>
+            <attribute type="scalar" name="DMZ_Turret_1" node="dof_turret_01" axis="y"/>
+            <attribute type="scalar" name="DMZ_Gun_1" node="dof_gun_01" axis="x"/>
+         </articulate>
+      </render>
+   </resource>
+   <resource name="spectator font" file="data-latin.ttf" path="font"/>
+   <resource name="npsnet" file="npsnet_overlay.png"/>
+   <resource name="smoke" file="particle.png"/>
+   <resource name="fire" file="particle.png"/>
+   <resource name="dust-trail" file="particle.png"/>
+   <resource name="gradient" file="gradient.png"/>
+   <resource name="tank arrow" file="tank_arrow.png"/>
+   <resource name="digits" file="tank_digits2.png"/>
+   <resource name="tank display" file="tank_display.png"/>
+   <resource name="tank display back" file="tank_display_back.png"/>
+   <resource name="tank display glare" file="tank_display_glare.png"/>
+   <resource name="tank hud map" file="tank_hud_map.png"/>
+   <resource name="tank hud map rings" file="tank_hud_map_rings.png"/>
+   <resource name="tank hud map back" file="tank_hud_map_back.png"/>
+   <resource name="tank hud map glare" file="tank_hud_map_glare.png"/>
+   <resource name="tank hud left" file="tank_hud_left.png"/>
+   <resource name="tank hud right" file="tank_hud_right.png"/>
+   <resource name="tank hud side" file="tank_hud_side.png"/>
+   <resource name="tank hud display" file="tank_hud_display.png"/>
+   <resource name="tank hud display glare" file="tank_hud_display_glare.png"/>
+   <resource name="tank hud map dot" file="tank_hud_map_dot.png"/>
+   <resource name="tank kills" file="tank_kills.png"/>
+   <resource name="tank hits" file="tank_hits.png"/>
+   <resource name="tank shots" file="tank_shots.png"/>
+   <resource name="tank deaths" file="tank_deaths.png"/>
+   <resource name="tank ammo" file="tank_ammo.png"/>
+   <resource name="tank health" file="tank_health.png"/>
+   <resource name="radar tank" file="radar_tank.png"/>
+   <resource name="crosshairs" file="crosshairs.png"/>
+   <resource name="spectator cross" file="spectator_cross.png"/>
+   <resource name="spectator rings" file="spectator_rings.png"/>
+   <resource name="29 palms" file="29palms.ive"/>
+   <resource name="sky dome" file="skydome.ive"/>
+   <resource name="m1a1" file="m1a1.ive">
+      <render>
+         <articulate template="DVTE Vehicle"/>
+      </render>
+   </resource>
+   <resource name="t72m" file="t72m.ive">
+      <render>
+         <articulate template="DVTE Vehicle"/>
+      </render>
+   </resource>
+   <resource name="blue truck" file="toyota_truck_good_blue.ive"/>
+   <resource name="m830" file="round.ive"/>
+   <resource name="engine-sound" file="engine.wav" path="audio"/>
+   <resource name="collision-sound" file="collision.wav" path="audio"/>
+   <resource name="launch-sound" file="launch.wav" path="audio"/>
+   <resource name="detonation-sound" file="explosion.wav" path="audio"/>
+   
+   <resource name="3" id="3" version="s.exe"/>
+   <resource name="2" id="2" version="se.msi"/>
+   <resource name="4" id="4" version="s.exe"/>
+   <resource name="5" id="5" version="se.msi"/>
+   <resource name="7" id="7" version="s.exe"/>
+   <resource name="6" id="6" version="se.msi"/>
+   <resource name="8" id="8" version="qt.zip"/>
+   <resource name="1" id="1" version="d.zip"/>
+</resource-map>
+</runtime>
+</dmz>
