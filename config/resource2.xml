@@ -4,7 +4,7 @@
    <extension name="dmzQtExtAppShellResources"/>
 </resources>
 <dmzQtExtAppShellResources>
-   <forge url="http://localhost:5984"/>
+   <forge url="http://localhost:8080"/>
 </dmzQtExtAppShellResources>
 <runtime>
 <resource-map>
@@ -61,33 +61,33 @@
    <resource name="crosshairs" file="crosshairs.png"/>
    <resource name="spectator cross" file="spectator_cross.png"/>
    <resource name="spectator rings" file="spectator_rings.png"/>
-   <resource name="29 palms" file="29palms.ive"/>
-   <resource name="sky dome" file="skydome.ive"/>
-   <resource name="m1a1" file="m1a1.ive">
+   <resource name="29 palms" id="c82aacae57f44118bf3323bc75d5dfbc" version="1-e6788cd55af2f7cd3481e1e253df4e0c363b7992.ive" file="29palms.ive"/>
+   <resource name="sky dome" id="997a28abdbc948788eb04684fffffc74" version="1-db2921fa3b6d1cf2298d705289176414c9706942.ive" file="skydome.ive"/>
+   <resource name="m1a1" id="d1afa3d45ded4585a9adbd34ade3d854" version="1-a7873cee72f5be4e8a1490f75a46f7c977b6d31d.ive" file="m1a1.ive">
       <render>
          <articulate template="DVTE Vehicle"/>
       </render>
    </resource>
-   <resource name="t72m" file="t72m.ive">
+   <resource name="t72m" id="3e81d205abe24631ad383d449874b750" version="1-9108aea68a9354f821162e94203566f0f6cfe1db.ive" file="t72m.ive">
       <render>
          <articulate template="DVTE Vehicle"/>
       </render>
    </resource>
    <resource name="blue truck" file="toyota_truck_good_blue.ive"/>
-   <resource name="m830" file="round.ive"/>
+   <resource name="m830" id="c57dbdd7b6a94f0886550ecd8e487fc8" version="1-e929160a27ee8099652903c8a4f488e3a8240e04.ive" file="round.ive"/>
    <resource name="engine-sound" file="engine.wav" path="audio"/>
    <resource name="collision-sound" file="collision.wav" path="audio"/>
    <resource name="launch-sound" file="launch.wav" path="audio"/>
    <resource name="detonation-sound" file="explosion.wav" path="audio"/>
    
-   <resource name="3" id="3" version="s.exe"/>
+   <!-- <resource name="3" id="3" version="s.exe"/>
    <resource name="2" id="2" version="se.msi"/>
    <resource name="4" id="4" version="s.exe"/>
    <resource name="5" id="5" version="se.msi"/>
    <resource name="7" id="7" version="s.exe"/>
    <resource name="6" id="6" version="se.msi"/>
    <resource name="8" id="8" version="qt.zip"/>
-   <resource name="1" id="1" version="d.zip"/>
+   <resource name="1" id="1" version="d.zip"/> -->
 </resource-map>
 </runtime>
 </dmz>
